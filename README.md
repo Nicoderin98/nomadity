@@ -1,24 +1,42 @@
-<h1 align="center">Hi 👋, I'm Nicolò De Rinaldis</h1>
-<h3 align="center">A passionate frontend developer from Forlì,Italy</h3>
+# Nomadity
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nicoderin98&label=Profile%20views&color=0e75b6&style=flat" alt="nicoderin98" /> </p>
+## Nomad living made easy
 
-- 🔭 I’m currently working on [Nomadity](https://www.nomadity.live)
+Link: https://www.nomadity.live/
 
-- 🌱 I’m currently learning **Ruby on Rails and React**
+Access: You can create an account or use our dummy account
+ Acount: pedro@lewagon.com
+ Password: 12345678
 
-- 👨‍💻 All of my projects are available at [https://github.com/Nicoderin98](https://github.com/Nicoderin98)
+Framework: Ruby on Rails 6
 
-- 📫 How to reach me **nicoderin98@gmail.com**
+Contributors: franmendonca, rbchapman, revdep, Nicoredin98
 
-- ⚡ Fun fact **in my free time I like to cook, play sports and listen to music**
+Our final project for the Le Wagon Bootcamp is a prototype app for digital nomads, that enables them to search for experiences in new cities they are planning to move to, in order to maintain their routines and plan out their daily routes.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/nicolò-de-rinaldis-forli" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nicolò-de-rinaldis-forli" height="30" width="40" /></a>
-<a href="https://discord.gg/Nicoderin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Nicoderin" height="30" width="40" /></a>
-</p>
+Users can select one of 8 categories in a city, and then browse each category, favoriting any experience, which will then be available on the routes page for users to create an itinerary.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> </p>
+On the routes page, users can use a draggable feature to order the experiences in order of how they want the itinerary to be created, choosing a start, middle and end-point.
 
+At the moment the app is functional in two cities, Lisbon and Porto, with a mix of real-world locations as well as fake entries, created with random coordinates and using the Faker gem.
+
+Sign-up is needed to view the app after the categories page, due to authentication with the gem devise.
+
+App responsiveness for mobile and other desktop resolution is on its way.
+
+### Contributions 💪
+
+ franmendonca:
+
+- Project lead and pitched the app;
+- Created the app with Ruby on Rails;
+- Created the experience seeds for the app;
+- Helped define the visual identity with Figma by creating a basic prototype, UI kit, and high fidelity prototype;
+- Created models, routes, and controllers for the app following Ruby’s MVC pattern and convention;
+- Implemented image hosting with Cloudinary;
+- Created and styled home page, categories page, modals, and experience cards;
+- Created and styled the navbar and footer;
+- Implemented the form to choose a city;
+- Implemented several partials for re-usable assets in the app;
+- General styling with CSS;
+- Deployed app to Heroku, bought the domain name, set up an SSL certificate and naked domain redirect;
